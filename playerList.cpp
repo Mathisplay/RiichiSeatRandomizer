@@ -132,17 +132,6 @@ vector<Player>* PlayerList::getPlayers() {
 }
 
 void PlayerList::assignTables(vector<vector<vector<Player>>> windedPlayers) {
-    // for(int i = 0; i < windedPlayers.size(); i++) {
-    //     cout << "Round " << i+1 << ":" << endl;
-    //     for(int j = 0; j < windedPlayers[i].size(); j++) {
-    //         cout << winds2[j] << ": ";
-    //         for(int k = 0; k < windedPlayers[i][j].size(); k++) {
-    //             cout << windedPlayers[i][j][k].getName() << " ";
-    //         }
-    //         cout << endl;
-    //     }
-    //     cout << endl;
-    // }
     vector<vector<vector<Player>>> tables;
     auto playersMasterBackup = players;
     srand(time(NULL));

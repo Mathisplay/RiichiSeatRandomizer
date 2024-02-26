@@ -1,0 +1,5 @@
+.vscode/
+fileGenerator.sh
+*.txt
+*.out
+*.exe
